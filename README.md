@@ -1,5 +1,18 @@
-# Offloading Strategies
+# Offloading Server
+Server for handling computation offloading requests.
 
-## Training Software
+## Granularity
+Supporting offloading at method-level
 
-## Profilers
+## Data Exchange
+Object serializable
+
+## Applications
+
+### ChestWalk
+Source: https://gitlab.com/chesswalk/chesswalk
+
+Offloading method:
+```ruby
+int getBestMove(char *fen, int depth, int moveTime);
+```
